@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvedor Web</title>
-    <link rel="stylesheet" href="styles/index.css" media="all">
-</head>
+    <link rel="stylesheet" href="styles/index.css">
+
 <body>
-    <header id=intro>
-        <div class="sidebar-container">
-            <nav class="sidebar">
-                <button class="bt">Inicio</button>
-                <button class="bt">Projetos</button>
-                <button class="bt">Habilidades</button>
-                <button class="bt">Perfil</button>
-            </nav>
+    <!--Menu Fixo-->
+    <div class="side-bar">
+        <nav class="menu">
+            <a href="#inicio" class="bt">Inicio</a>
+            <a href="#projetos" class="bt">Projetos</a>
+            <a href="#perfil" class="bt">Perfil</a>
+        </nav>
+    </div>
+    <!--Pagina inicial-->
+    <div id="inicio" class="space"></div>
+    <header class="h-container">
+        <div class="h-content">
+            <div class="content-text">
+                <h1>Desenvolvedor de Sistemas</h1>
+                <p>Olá, meu nome é <strong>Matheus Vinicius</strong>, tenho 25 anos e sou <strong>Desenvolvedor de
+                        Sistemas</strong>,programar é minha paixão e goste de ser desafiado em novos projetos!</p>
+                <h3>Espero que goste do meu trabalho!</h3>
+            </div>
+            <div class="content-image">
+                <img src="image/image-de-fundo.jpg" alt="Imagen ilustrativa">
+            </div>
         </div>
     </header>
-    <main>
-        <div>
-
-        </div>
+    <!--Seção de projetos-->
+    <main id="projetos">
+        <section>
+            <h1>Projetos</h1>
+            <div class="project-container">
+                <div class="project">
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Em breve</h2>
+                    </div>
+                </div>
+                <button class="btn-more">Veja mais</button>
+            </div>
+        </section>
+        <section id="perfil">
+            <div class="perfil-container">
+                <div class="perfil">
+                    <div class="image-container">
+                        <img class="image-perfil" src="image/Perfil.jpg" alt="">
+                    </div>
+                    <div class="perfil-text">
+                        <h1>Matheus Vinicius</h1>
+                        <h3>Desenvolvedor de Sistemas</h3>
+                        <div class="skills">
+                            <div class="skill">
+                                <p>HTML5</p>
+                            </div>
+                            <div class="skill">
+                                <p>CSS3</p>
+                            </div>
+                            <div class="skill">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <h6 class="info">&copy;2022 |Todos os direitos são reservados.</h6>
+        <h6>Desenvolvido por <a href="#">Matheus Vinicius</a></h6>
+    </footer>
+    <script src="script/#"></script>
 </body>
+
 </html>

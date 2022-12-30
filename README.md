@@ -22,4 +22,9 @@ font-family: 'Poppins', sans-serif;
 
 # Colors
 
---
+--primary:#FFF;
+--secundary:#000;
+--color-1:#64009A;
+--color-2:#AA5EED;
+--color-3:#AB00FF;
+--color-4:#EEC4FF;
